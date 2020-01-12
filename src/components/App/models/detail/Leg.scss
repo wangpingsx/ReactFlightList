@@ -1,0 +1,40 @@
+@import '~bpk-mixins';
+
+.Leg {
+  &__image {
+    margin-top: $bpk-spacing-sm/2;
+    width:36px;
+    height:36px;
+  }
+
+  &__arrowImage{
+    margin-top: $bpk-spacing-sm;
+    width:16px;
+    height:16px;
+  }
+
+  &__greyText {
+    color: #9A95A6;
+  }
+
+  &__blueText {
+    color: #29B5A9;
+  }
+
+  &__redText {
+    color: red;
+  }
+
+  &__smallText {
+    font-size: 70%;
+  }
+
+  &__smallTextBox {
+    margin-top: $bpk-spacing-sm;
+  }
+
+  &__row {
+    margin-bottom: $bpk-spacing-sm;
+  }
+
+}
